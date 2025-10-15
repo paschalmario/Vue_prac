@@ -2,6 +2,16 @@
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Poppins', 'san-serif'],
+      },
+      gridTemplateRows: {
+        '70/30': '70% 20%',
+      },
+    },
+  },
+  variants: {
     extend: {},
   },
   plugins: [],
